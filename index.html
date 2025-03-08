@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download My App</title>
+    <style>
+        html {
+            background-color: #55a2dc;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .download-btn {
+            color: #fcffff;
+            padding: 15px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 0px;
+            border: #fcffff 3px solid;
+            background-color: transparent;
+            transition: all 0.3s ease;
+            /* Smooth transition for hover effects */
+            cursor: pointer;
+        }
+
+        /* Hover Effects for Button */
+        .download-btn:hover {
+            background-color: #fcffff;
+            /* Change background color on hover */
+            color: #55a2dc;
+            /* Change text color on hover */
+            transform: scale(1.05);
+            /* Slightly increase size on hover */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            /* Add a subtle shadow */
+        }
+
+        .download-btn:active {
+            transform: scale(0.95);
+            /* Slightly shrink when clicked */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Full viewport height */
+        }
+
+        img {
+            height: 200px;
+            margin-bottom: 20px;
+            /* Add spacing below the image */
+        }
+
+        .footerr {
+            color: #fcffffd2;
+            margin-top: 150px;
+            font-size: 1.1rem;
+        }
+
+        /* Hover Effects for Footer Link */
+        .footerr a {
+            color: #fcffffd2;
+            text-decoration: none;
+            text-decoration: underline;
+            /* Remove default underline */
+            transition: all 0.3s ease;
+            /* Smooth transition for hover effects */
+            margin-right: 1px;
+        }
+
+        .footerr a:hover {
+            color: #cacaca;
+            font-style: italic;
+            /* Change link color on hover */
+            text-decoration: underline;
+            /* Add underline on hover */
+            transform: scale(1.05);
+            /* Slightly increase size on hover */
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="safemeds.png" alt="App Logo">
+        </div>
+        <div>
+            <a href="https://drive.google.com/uc?export=download&id=1ymi-XJpUxg4nu01oR2MbCxf75_jXM9SZ"
+                class="download-btn" download>Download APK</a>
+        </div>
+        <div class="footerr">
+            <span><a href="https://yashmavani.framer.website/">Yash Mavani</a></span> Production
+        </div>
+    </div>
+</body>
+
+</html>
